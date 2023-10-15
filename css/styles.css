@@ -182,9 +182,8 @@ img {
   justify-content: center;
 }
 .section-team-link:hover,
-.section-team-link:focus,
-.section-team-link:active {
-  background-color: var(--OCEAN, #404bbf);
+.section-team-link:focus {
+  background-color: #404bbf;
 }
 .section-team-social {
   width: 40px;
@@ -231,7 +230,7 @@ img {
   font-size: 36px;
   line-height: 1.11;
   color: var(--NAVY-BLUE, #2e2f42);
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .section-company-list {
   display: flex;
@@ -326,7 +325,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--WHITE, #ffffff);
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
