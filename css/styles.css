@@ -318,6 +318,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--CLOUD, #f4f4fd);
   max-width: 264px;
+  margin-bottom: 16px;
 }
 .footer-social-title {
   font-weight: 500;
