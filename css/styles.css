@@ -181,10 +181,6 @@ img {
   align-items: center;
   justify-content: center;
 }
-.section-team-link:hover,
-.section-team-link:focus {
-  background-color: var(--OCEAN, #404bbf);
-}
 .section-team-social {
   width: 40px;
   height: 40px;
@@ -249,11 +245,6 @@ img {
   align-items: center;
   justify-content: center;
   color: 1px solid var(--LIGHT-SLATE, #8e8f99);
-}
-.section-company-link:hover,
-.section-company-link:focus {
-  border-color: var(--OCEAN, #404bbf);
-  color: var(--OCEAN, #404bbf);
 }
 .section-company-svg {
   fill: currentColor;
@@ -326,6 +317,10 @@ img {
   letter-spacing: 0.02em;
   color: var(--WHITE, #ffffff);
   margin-bottom: 16px;
+}
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--GREEN, #31d0aa);
 }
 .button {
   font-family: inherit;
