@@ -181,22 +181,21 @@ img {
 .section-team-link {
   width: 100%;
   height: 100%;
+  fill: var(--CLOUD, #f4f4fd);
   background-color: var(--IRIS, #4d5ae5);
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.section-team-link:hover {
-  background-color: #404bbf;
-}
+.section-team-link:hover,
 .section-team-link:focus {
-  background-color: #404bbf;
+  background-color: var(--IRIS, #4d5ae5);
 }
 .section-team-social {
   width: 40px;
   height: 40px;
-  fill: #f4f4fd;
+  fill: var(--CLOUD, #f4f4fd);
 }
 .section-team-list-social {
   display: flex;
