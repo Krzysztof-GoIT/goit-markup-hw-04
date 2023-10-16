@@ -190,7 +190,7 @@ img {
 }
 .section-team-link:hover,
 .section-team-link:focus {
-  background-color: var(--IRIS, #4d5ae5);
+  background-color: var(--OCEAN, #404bbf);
 }
 .section-team-social {
   width: 40px;
